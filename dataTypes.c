@@ -20,9 +20,11 @@ void data()
     unsigned char l; // 1 byte
     long double m; // 12 or 16 bytes
 
-    printf("This is the size of int and it is: %d\n", sizeof(a));
-    printf("This is the size of char and it is: %d\n", sizeof(b));
-    printf("This is the difference between float and double, float is %d, and double is %d", sizeof(c), sizeof(d));
+    printf("This is the size of int and it is: %d.\n", sizeof(a));
+    printf("This is the size of char and it is: %d.\n", sizeof(b));
+    printf("This is the difference between float and double, float is %d, and double is %d.\n", sizeof(c), sizeof(d));
 
+    const int q = 0;
+    printf("This text on the screen is also a constant and right this digit -> %d.\n", 79);
     return 0;
 }
